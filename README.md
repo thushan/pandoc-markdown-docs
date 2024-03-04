@@ -24,6 +24,17 @@ You'll need a few items for you to use this repository effectively:
 
 ## Converting
 
+The usage for `build.sh` and `build.ps1` is quite simple:
+
+```bash
+./build.sh README.md [output-filename] [template-filename]
+```
+
+For example:
+
+* `build.sh README.md` - Simple conversion that creates `readme-draft.docx`.
+* `build.sh README.md readme-release.docx template/default.docx` - All options on the table.
+
 ## Examples
 
 This repository is ideal when your layout is simple and doesn't require tables or for technical documentation (Eg. with architecture diagrams with [Excalidraw](https://excalidraw.com/)) for example like this:
